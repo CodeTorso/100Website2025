@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+head, body {
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.logo {
+  font-family: 'Edu TAS Beginner', cursive;
+}
+
+.heading {
+  background: linear-gradient(to left, #c2feff,#c5c2ff,#ffc7b4,#ffc0c0,#f8ffc9);
+  background-size: 200%;
+  background-position: 0 50%;
+  animation: move 4s infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.img-div {
+  position: absolute;
+  border-radius: 50%;
+  top: 20%;
+  right: 2%;
+  height: 75%;
+  rotate: 18deg;
+  
+}
